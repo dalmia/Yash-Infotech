@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#ffdfdfdf"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="fill_parent"
+        android:layout_height="250sp"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="30sp"
+        android:src="@drawable/kasperimage" />
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="350sp"
+        android:layout_height="40sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="#ffffb112"
+        android:paddingRight="260sp"
+        android:text="RAMs"
+        android:textColor="#ffffff"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+
+    <View
+        android:layout_width="283sp"
+        android:layout_height="2dip"
+        android:layout_gravity="center_horizontal" />
+
+
+    <Button
+        android:id="@+id/buttonram1"
+        android:layout_width="350sp"
+        android:layout_height="40sp"
+        android:layout_gravity="center_horizontal"
+        android:background="#ffffff"
+        android:paddingRight="190sp"
+        android:text="Corsair Value RAMs"
+        android:textColor="@android:color/black"
+        android:textSize="15sp" />
+
+    <View
+        android:layout_width="283sp"
+        android:layout_height="2dip"
+        android:layout_gravity="center_horizontal" />
+
+
+    <Button
+        android:id="@+id/buttonram2"
+        android:layout_width="350sp"
+        android:layout_height="40sp"
+        android:layout_gravity="center_horizontal"
+        android:background="#ffffff"
+        android:paddingRight="200sp"
+        android:text="Corsair Vengeance"
+        android:textColor="@android:color/black"
+        android:textSize="15sp" />
+
+    <View
+        android:layout_width="283sp"
+        android:layout_height="2dip"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/buttonram3"
+        android:layout_width="350sp"
+        android:layout_height="40sp"
+        android:layout_gravity="center_horizontal"
+        android:background="#ffffff"
+        android:paddingRight="190sp"
+        android:text="Corsair XMS3 RAMs"
+        android:textColor="@android:color/black"
+        android:textSize="15sp" />
+
+
+</LinearLayout>

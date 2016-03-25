@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffdfdfdf"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="200sp"
+        android:id="@+id/imageView5"
+        android:layout_weight="0.02"
+        android:layout_margin="20sp"
+        android:src="@drawable/kasperimage" />
+
+
+    <Button
+        android:id="@+id/kasp"
+        android:layout_width="350sp"
+        android:layout_height="40sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="#fffed444"
+        android:paddingRight="200sp"
+        android:text="KASPERSKY"
+        android:textColor="#ffffff"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+
+    <View
+        android:layout_width="283sp"
+        android:layout_height="2dip"
+        android:layout_gravity="center_horizontal" />
+
+
+    <Button
+        android:id="@+id/kasp1"
+        android:layout_width="350sp"
+        android:layout_height="40sp"
+        android:layout_gravity="center_horizontal"
+        android:background="#ffffff"
+        android:paddingRight="250sp"
+        android:text="Antivirus"
+        android:textColor="@android:color/black"
+        android:textSize="15sp"
+        />
+
+
+    <View
+        android:layout_width="283sp"
+        android:layout_height="2dip"
+        android:layout_gravity="center_horizontal" />
+
+
+    <Button
+        android:id="@+id/kasp2"
+        android:layout_width="350sp"
+        android:layout_height="40sp"
+        android:layout_gravity="center_horizontal"
+        android:background="#ffffff"
+        android:paddingRight="250sp"
+        android:text="Internet"
+        android:textColor="@android:color/black"
+        android:textSize="15sp"
+        />
+
+    <View
+        android:layout_width="283sp"
+        android:layout_height="2dip"
+        android:layout_gravity="center_horizontal" />
+
+
+    <Button
+        android:id="@+id/kasp3"
+        android:layout_width="350sp"
+        android:layout_height="40sp"
+        android:layout_gravity="center_horizontal"
+        android:background="#ffffff"
+        android:paddingRight="265sp"
+        android:text="Pure"
+        android:textColor="@android:color/black"
+        android:textSize="15sp"
+        />
+    <View
+        android:layout_width="283sp"
+        android:layout_height="2dip"
+        android:layout_gravity="center_horizontal" />
+
+
+    <Button
+        android:id="@+id/kasp4"
+        android:layout_width="350sp"
+        android:layout_height="40sp"
+        android:layout_gravity="center_horizontal"
+        android:background="#ffffff"
+        android:paddingRight="260sp"
+        android:text="Server"
+        android:textColor="@android:color/black"
+        android:textSize="15sp"
+        />
+</LinearLayout>

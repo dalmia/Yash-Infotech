@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:weightSum="1"
+    android:id="@+id/">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Yash Infotech"
+        android:id="@+id/textView3"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@android:color/black"
+        android:textSize="60sp"
+        android:paddingLeft="10sp"
+        android:paddingTop="10sp"
+        android:layout_margin="10sp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView4"
+            android:textSize="45sp"
+            android:textColor="@android:color/darker_gray"
+            android:paddingLeft="4sp"
+            android:paddingTop="20sp"
+            android:paddingRight="10sp"
+            android:paddingBottom="20sp"
+            android:text="Email      :" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="yashinfotech12@gmail.com"
+            android:id="@+id/textView26"
+            android:textColor="@android:color/black"
+            android:textSize="40sp"
+            android:paddingTop="20sp"
+            android:textIsSelectable="false" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phone    :"
+            android:id="@+id/textViewphn4"
+            android:textSize="45sp"
+            android:textColor="@android:color/darker_gray"
+            android:paddingLeft="6sp"
+            android:paddingTop="20sp"
+            android:paddingRight="20sp"
+            android:paddingBottom="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="(033) 3022 3984,     6553 7508, 6553 7525"
+            android:id="@+id/textViewphn26"
+            android:textColor="@android:color/black"
+            android:textSize="40sp"
+            android:paddingTop="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mobile    :"
+            android:id="@+id/textViewmob4"
+            android:textSize="45sp"
+            android:textColor="@android:color/darker_gray"
+            android:paddingLeft="4sp"
+            android:paddingTop="20sp"
+            android:paddingRight="20sp"
+            android:paddingBottom="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="(+91) 9830042555, 9903891335(Whatsapp)"
+            android:id="@+id/textViewmob26"
+            android:textColor="@android:color/black"
+            android:textSize="40sp"
+            android:paddingTop="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Address :"
+            android:id="@+id/textViewadd4"
+            android:textSize="45sp"
+            android:textColor="@android:color/darker_gray"
+            android:textIsSelectable="false"
+            android:paddingLeft="4sp"
+            android:paddingTop="20sp"
+            android:paddingRight="20sp"
+            android:paddingBottom="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="157C Lenin Sarani, Deluxe Centre Shop No. A3, Ground Floor, Kolkata-700 013(Near Kamalalya Centre)"
+            android:id="@+id/textViewadd26"
+            android:textColor="@android:color/black"
+            android:textSize="40sp"
+            android:paddingTop="20sp" />
+    </LinearLayout>
+
+
+
+</LinearLayout>

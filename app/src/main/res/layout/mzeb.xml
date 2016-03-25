@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffdfdfdf">
+
+    <ScrollView
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_height="40sp"
+                android:layout_width="fill_parent"
+                android:text="Zebronics MotherBoards"
+                android:textSize="20sp"
+                android:textColor="@android:color/primary_text_light"
+                android:paddingLeft="20sp"
+                android:paddingTop="10sp"
+                />
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="200sp"
+                android:layout_marginTop="10sp"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:background="#ffffff"
+              >
+
+                <ImageView
+                    android:layout_width="150sp"
+                    android:layout_height="150sp"
+                    android:id="@+id/motherboardhaiyaarimagemei"
+                    android:layout_marginTop="20sp"
+                    android:layout_marginLeft="10sp"
+                    android:src="@drawable/mother1" />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="200sp"
+                    android:id="@+id/motherkalinearlayout"
+                    android:orientation="vertical"
+                    android:weightSum="1">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="63dp"
+                        android:text="Intel Chipset 945 DDR2 LGA775"
+                        android:id="@+id/motherboardhaiyaar"
+                        android:textSize="20sp"
+                        android:textColor="@android:color/darker_gray"
+                        android:layout_marginRight="15sp"
+                        android:layout_marginTop="30sp"
+                        android:layout_weight="0.33" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="50sp"
+                        android:text="Rs. 1780"
+                        android:id="@+id/motherboardkatextlaunde"
+                        android:textStyle="bold"
+                        android:textSize="25sp" />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="200sp"
+                android:layout_marginTop="10sp"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:background="#ffffff"
+                >
+
+                <ImageView
+                    android:layout_width="150sp"
+                    android:layout_height="150sp"
+                    android:id="@+id/motherboardhaiyaarimagemei2"
+                    android:layout_marginTop="20sp"
+                    android:layout_marginLeft="10sp"
+                    android:src="@drawable/mother2" />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="200sp"
+                    android:id="@+id/motherkalinearlayout2"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:text="Intel Chipset DDR3G41 LGA775"
+                        android:id="@+id/motherboardhaiyaar2"
+                        android:textSize="20sp"
+                        android:textColor="@android:color/darker_gray"
+                        android:layout_marginRight="15sp"
+                        android:layout_marginTop="30sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="50sp"
+                        android:text="Rs. 2525"
+                        android:id="@+id/motherboardkatextlaunde2"
+                        android:textStyle="bold"
+                        android:textSize="25sp" />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="200sp"
+                android:layout_marginTop="10sp"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:background="#ffffff"
+                >
+
+                <ImageView
+                    android:layout_width="150sp"
+                    android:layout_height="150sp"
+                    android:id="@+id/motherboardkaiamgehaiismie3"
+                    android:layout_marginTop="30sp"
+                    android:layout_marginLeft="10sp"
+                    android:src="@drawable/mother3" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="200sp"
+                    android:id="@+id/motherkalayout3"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:text="Intel Chipset DDR2 G31 LGA775"
+                        android:id="@+id/motherboardhaiyaar3"
+                        android:textSize="20sp"
+                        android:textColor="@android:color/darker_gray"
+                        android:layout_marginRight="15sp"
+                        android:layout_marginTop="30sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="50sp"
+                        android:text="Rs. 2300"
+                        android:id="@+id/motherboardkatextlaunde3"
+                        android:textStyle="bold"
+                        android:textSize="25sp" />
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="200sp"
+                android:layout_marginTop="10sp"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:background="#ffffff"
+                >
+
+                <ImageView
+                    android:layout_width="150sp"
+                    android:layout_height="150sp"
+                    android:id="@+id/motherboardrismei4haiyaa"
+                    android:layout_marginTop="20sp"
+                    android:layout_marginLeft="10sp"
+                    android:src="@drawable/mother4" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="200sp"
+                    android:id="@+id/motherkalayout4"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:text="AMD Chipset N68 940 AM2+AM3"
+                        android:id="@+id/motherboarhaiyuaaar4"
+                        android:textSize="20sp"
+                        android:textColor="@android:color/darker_gray"
+                        android:layout_marginRight="15sp"
+                        android:layout_marginTop="30sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="50sp"
+                        android:text="Rs. 2400"
+                        android:id="@+id/motherkatxtlaunde4"
+                        android:textStyle="bold"
+                        android:textSize="25sp" />
+
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

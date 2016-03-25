@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffdfdfdf"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="40sp"
+                android:paddingLeft="20sp"
+                android:paddingTop="10sp"
+                android:text="Creative 5.1 Speakers"
+                android:textColor="@android:color/primary_text_light"
+                android:textSize="20sp"
+                />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="200sp"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:layout_marginTop="10sp"
+                android:background="#ffffff"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/s51image"
+                    android:layout_width="150sp"
+                    android:layout_height="150sp"
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginTop="20sp"
+                    android:src="@drawable/creative7" />
+
+                <LinearLayout
+                    android:id="@+id/linearlayouts51"
+                    android:layout_width="wrap_content"
+                    android:layout_height="200sp"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="5sp">
+
+                    <TextView
+                        android:id="@+id/kasantibutton1"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:layout_marginRight="15sp"
+                        android:layout_marginTop="30sp"
+                        android:text="Creative Speakers 5.1 SBS A550"
+                        android:textColor="@android:color/darker_gray"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/textView1"
+                        android:layout_width="match_parent"
+                        android:layout_height="50sp"
+                        android:text="Rs. 3400"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="200sp"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:layout_marginTop="10sp"
+                android:background="#ffffff"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/s51image2"
+                    android:layout_width="150sp"
+                    android:layout_height="150sp"
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginTop="30sp"
+                    android:src="@drawable/speaker8" />
+
+                <LinearLayout
+                    android:id="@+id/linearlayouts512"
+                    android:layout_width="wrap_content"
+                    android:layout_height="200sp"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="10sp">
+
+                    <TextView
+                        android:id="@+id/kasantibutton2"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:layout_marginRight="15sp"
+                        android:layout_marginTop="30sp"
+                        android:text="Creative Speakers 5.1 T6300 Inspire"
+                        android:textColor="@android:color/darker_gray"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="match_parent"
+                        android:layout_height="50sp"
+                        android:text="Rs. 4175"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

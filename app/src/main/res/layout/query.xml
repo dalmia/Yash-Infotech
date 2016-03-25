@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100"
+    android:background="#ffffff">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="500sp"
+        android:layout_weight="30"
+        android:layout_margin="20sp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20sp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="To :"
+                android:textColor="#ff808081"></TextView>
+
+            <EditText
+                android:id="@+id/etEmails1"
+                android:layout_width="match_parent"
+                android:text="yiquery@gmail.com"
+                android:layout_height="wrap_content"></EditText>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="20sp"
+                android:layout_height="wrap_content"
+                android:text="Subject :"
+                android:textColor="#ff808081"></TextView>
+
+            <EditText
+                android:id="@+id/etIntro1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"></EditText>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="20sp"
+                android:layout_height="wrap_content"
+                android:text="Query :"
+                android:textColor="#ff808081"></TextView>
+
+            <EditText
+                android:id="@+id/etName1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                ></EditText>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="20sp"
+                android:layout_height="wrap_content"
+                android:text="Details Specific to the query"
+                android:textColor="#ff808081"></TextView>
+
+            <EditText
+                android:id="@+id/etName2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+               ></EditText>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="40"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/bSentEmail1"
+            android:layout_width="333sp"
+            android:layout_height="40sp"
+            android:text="Send Email"
+            android:background="#ffdad7d7"
+            android:layout_gravity="center_horizontal"></Button>
+    </LinearLayout>
+
+</LinearLayout>

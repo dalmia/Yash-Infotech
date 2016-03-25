@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.project.yashinfotech">
+
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icontobe"
+        android:label="@string/app_name">
+
+        <activity
+            android:name=".Splash"
+            android:label="@string/app_name"
+            android:theme="@style/Base.Theme.AppCompat">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="com.project.yashinfotech.MAINACTIVITY" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name=".Mouse"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="com.project.yashinfotech.MOUSE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Antivirus"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="com.project.yashinfotech.ANTIVIRUS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".GraphicCard"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="com.project.yashinfotech.GRAPHICCARD" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".LanCard"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="com.project.yashinfotech.LANCARD" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".Keyboard"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="com.project.yashinfotech.KEYBOARD" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".Speaker"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="com.project.yashinfotech.SPEAKER" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".MotherBoard"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="com.project.yashinfotech.MOTHERBOARD" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".RAM"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="com.project.yashinfotech.RAM" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".SoundCard"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="com.project.yashinfotech.SOUNDCARD" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".Catridges"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="com.project.yashinfotech.CATRIDGES" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".Headphone"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="com.project.yashinfotech.HEADPHONE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".Kaspersky"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="com.project.yashinfotech.KASPERSKY" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".KAnti"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".KInter"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".KPure"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".KServer"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".QuickHeal"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="com.project.yashinfotech.QUICKHEAL" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".QAnti"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".QInter"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Qtot"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Upgrades"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".UInter"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".UAnti"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".UTot"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".Bluetooth"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".Zotac"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="com.project.yashinfotech.ZOTAC" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Sapphire"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="com.project.yashinfotech.SAPPHIRE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MWired"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".MWireless"
+            android:theme="@style/AppTheme" />
+
+
+        <activity
+            android:name=".KWired"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".S20"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".S21"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".S51"
+            android:theme="@style/AppTheme" />
+
+
+        <activity
+            android:name=".KWireless"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".QServer"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".UServer"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".MZeb"
+            android:theme="@style/AppTheme" />
+
+
+        <activity
+            android:name=".HLogitech"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".HMicrosoft"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="com.project.yashinfotech.MICROSOFT" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".RValue"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".RVeng"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".RX"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".LZebro"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".Logitechmodel1"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".Logitechmodel2"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".Canon"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="com.project.yashinfotech.CANON" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+        </activity>
+
+        <activity
+            android:name=".Zebronics"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="com.project.yashinfotech.ZEBRONICS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+        </activity>
+
+        <activity
+            android:name=".Creative"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="com.project.yashinfotech.CREATIVE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+        </activity>
+
+        <activity
+            android:name=".Logitech"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="com.project.yashinfotech.LOGITECH" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+        </activity>
+
+
+        <activity
+            android:name=".SCreative"
+            android:theme="@style/AppTheme" />
+
+
+        <activity
+            android:name=".DrawerActivity"
+            android:theme="@style/AppTheme" />
+
+    </application>
+
+</manifest>

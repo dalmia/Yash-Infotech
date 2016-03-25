@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#ffdfdfdf"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+   >
+
+    <ViewFlipper
+        android:id="@+id/flipper2"
+        android:layout_width="fill_parent"
+        android:layout_height="250sp">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="fill_parent"
+        android:layout_height="250sp"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="30sp"
+        android:src="@drawable/kasperimage" />
+
+    </ViewFlipper>
+
+    <Button
+        android:id="@+id/buttonhp"
+        android:layout_width="350sp"
+        android:layout_height="40sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="#ffc92af2"
+        android:paddingRight="210sp"
+        android:text="CATRIDGES"
+        android:textColor="#ffffff"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+
+
+
+    <View
+        android:layout_width="283sp"
+        android:layout_height="2dip"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <Button
+        android:id="@+id/buttoncat1"
+        android:layout_width="350sp"
+        android:layout_height="40sp"
+        android:layout_gravity="center_horizontal"
+        android:background="#ffffff"
+        android:paddingRight="280sp"
+        android:text="Canon"
+        android:textColor="@android:color/black"
+        android:textSize="15sp" />
+</LinearLayout>

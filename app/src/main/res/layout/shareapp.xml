@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    android:weightSum="100">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="400sp"
+        android:layout_weight="30"
+        android:layout_margin="20sp"
+        android:fillViewport="false"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20sp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="To :"
+                android:textColor="#ff808081"></TextView>
+
+            <EditText
+                android:id="@+id/etEmails"
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"></EditText>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:text="Subject:"
+                android:textColor="#ff808081"></TextView>
+
+            <EditText
+                android:id="@+id/etIntro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"></EditText>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:text="Content"
+                android:textColor="#ff808081"></TextView>
+
+            <EditText
+                android:id="@+id/etName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="com/store/app/details?id=com.project.yashinfotech"></EditText>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="40"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/SentEmail"
+            android:layout_width="333dp"
+            android:layout_height="40sp"
+            android:layout_marginLeft="25sp"
+            android:background="#ffdad7d7"
+            android:text="Send Email"></Button>
+    </LinearLayout>
+
+</LinearLayout>

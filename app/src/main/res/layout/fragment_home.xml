@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffdfdfdf"
+    android:orientation="vertical"
+  >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <ViewFlipper
+                android:id="@+id/flipper"
+                android:layout_width="fill_parent"
+                android:layout_height="250dp">
+
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="250dp"
+                    android:layout_gravity="center_horizontal"
+                    android:paddingBottom="30dp"
+                    android:src="@drawable/quickhealmain" />
+
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="fill_parent"
+                    android:layout_height="250dp"
+                    android:layout_gravity="center_horizontal"
+                    android:paddingBottom="30dp"
+                    android:src="@drawable/kasperimage" />
+
+
+
+
+                <ImageView
+                    android:id="@+id/imageViewz1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="250dp"
+                    android:layout_gravity="center_horizontal"
+                    android:paddingBottom="30dp"
+                    android:src="@drawable/zotacsplash" />
+
+                <ImageView
+                    android:id="@+id/imageViewc1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="250dp"
+                    android:layout_gravity="center_horizontal"
+                    android:paddingBottom="30dp"
+                    android:src="@drawable/creativewoof" />
+
+                <ImageView
+                    android:id="@+id/imageViewc2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="250dp"
+                    android:layout_gravity="center_horizontal"
+                    android:paddingBottom="30dp"
+                    android:src="@drawable/corsair" />
+
+
+
+
+            </ViewFlipper>
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="350dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:background="#ffff4513"
+                android:paddingRight="200dp"
+                android:text="PRODUCTS"
+                android:textColor="#ffffff"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+
+            <View
+                android:layout_width="283dp"
+                android:layout_height="2dip"
+                android:layout_gravity="center_horizontal" />
+
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="350dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_horizontal"
+                android:background="#ffffff"
+                android:paddingRight="220dp"
+                android:text="Graphic Cards "
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+
+            <View
+                android:layout_width="283dp"
+                android:layout_height="2dip"
+                android:layout_gravity="center_horizontal"
+
+                />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="350dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_horizontal"
+
+                android:background="#ffffff"
+                android:paddingRight="250dp"
+                android:text="Antivirus"
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+
+            <View
+                android:layout_width="283dp"
+                android:layout_height="2dip"
+                android:layout_gravity="center_horizontal"
+
+                />
+
+            <Button
+                android:id="@+id/buttontokeyboard"
+                android:layout_width="350dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_horizontal"
+                android:background="#ffffff"
+                android:paddingRight="240dp"
+                android:text="Keyboards"
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+
+            <View
+                android:layout_width="283dp"
+                android:layout_height="2dip"
+                android:layout_gravity="center_horizontal"
+
+                />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="350dp"
+
+                android:layout_height="40dp"
+                android:layout_gravity="center_horizontal"
+                android:background="#ffffff"
+                android:paddingRight="265dp"
+                android:text="Mouse"
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+
+            <View
+                android:layout_width="283dp"
+                android:layout_height="2dip"
+                android:layout_gravity="center_horizontal"
+
+                />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="350dp"
+
+                android:layout_height="40dp"
+                android:layout_gravity="center_horizontal"
+                android:background="#ffffff"
+                android:paddingRight="255dp"
+                android:text="Speakers"
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+
+            <View
+                android:layout_width="283dp"
+                android:layout_height="2dip"
+                android:layout_gravity="center_horizontal"
+
+                />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="350dp"
+                android:layout_height="40dp"
+
+                android:layout_gravity="center_horizontal"
+                android:background="#ffffff"
+                android:paddingRight="225dp"
+                android:text="Motherboard"
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+
+            <View
+                android:layout_width="283dp"
+                android:layout_height="2dip"
+                android:layout_gravity="center_horizontal"
+
+                />
+
+            <Button
+                android:id="@+id/button7"
+
+                android:layout_width="350dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_horizontal"
+                android:background="#ffffff"
+                android:paddingRight="275dp"
+                android:text="RAMs"
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <View
+                android:layout_width="283dp"
+                android:layout_height="2dip"
+                android:layout_gravity="center_horizontal"
+
+                />
+
+            <Button
+                android:id="@+id/button11"
+                android:layout_width="350dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_horizontal"
+                android:background="#ffffff"
+                android:paddingRight="230dp"
+                android:text="Headphones"
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+
+            <View
+                android:layout_width="283dp"
+                android:layout_height="2dip"
+                android:layout_gravity="center_horizontal"
+
+                />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="350dp"
+
+                android:layout_height="40dp"
+                android:layout_gravity="center_horizontal"
+                android:background="#ffffff"
+                android:paddingRight="240dp"
+                android:text="LAN Cards"
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+
+            <View
+                android:layout_width="283dp"
+                android:layout_height="2dip"
+                android:layout_gravity="center_horizontal"
+
+                />
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="350dp"
+                android:layout_height="40dp"
+
+                android:layout_gravity="center_horizontal"
+                android:background="#ffffff"
+                android:paddingRight="240dp"
+                android:text="Cartridges"
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+
+            <View
+                android:layout_width="283dp"
+                android:layout_height="2dip"
+                android:layout_gravity="center_horizontal"
+
+                />
+
+
+            <Button
+
+                android:id="@+id/button13"
+                android:layout_width="350dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_horizontal"
+                android:background="#ffffff"
+                android:paddingRight="220dp"
+                android:text="Sound Cards"
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+
+            <Button
+                android:id="@+id/btn"
+                android:layout_width="350dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:background="#ff7f31ff"
+                android:paddingRight="200dp"
+                android:text="Brands"
+                android:textColor="#ffffff"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="283dp"
+                android:layout_height="2dip"
+                android:layout_gravity="center_horizontal" />
+
+            <Button
+                android:id="@+id/btn1"
+                android:layout_width="350dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_horizontal"
+                android:background="#ffffff"
+                android:paddingRight="250dp"
+                android:text="Zotac"
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <View
+                android:layout_width="283dp"
+                android:layout_height="2dip"
+                android:layout_gravity="center_horizontal" />
+
+            <Button
+                android:id="@+id/btn2"
+                android:layout_width="350dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_horizontal"
+                android:background="#ffffff"
+                android:paddingRight="240dp"
+                android:text="Sapphire"
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <View
+                android:layout_width="283dp"
+                android:layout_height="2dip"
+                android:layout_gravity="center_horizontal" />
+
+            <Button
+                android:id="@+id/btn3"
+                android:layout_width="350dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_horizontal"
+                android:background="#ffffff"
+                android:paddingRight="230dp"
+                android:text="Quick Heal"
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <View
+                android:layout_width="283dp"
+                android:layout_height="2dip"
+                android:layout_gravity="center_horizontal" />
+
+            <Button
+                android:id="@+id/btn4"
+                android:layout_width="350dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_horizontal"
+                android:background="#ffffff"
+                android:paddingRight="230dp"
+                android:text="Kaspersky"
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <View
+                android:layout_width="283dp"
+                android:layout_height="2dip"
+                android:layout_gravity="center_horizontal" />
+
+            <Button
+                android:id="@+id/btn5"
+                android:layout_width="350dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_horizontal"
+                android:background="#ffffff"
+                android:paddingRight="235dp"
+                android:text="Logitech"
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <View
+                android:layout_width="283dp"
+                android:layout_height="2dip"
+                android:layout_gravity="center_horizontal" />
+
+            <Button
+                android:id="@+id/btn7"
+                android:layout_width="350dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_horizontal"
+                android:background="#ffffff"
+                android:paddingRight="225dp"
+                android:text="Microsoft"
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <View
+                android:layout_width="283dp"
+                android:layout_height="2dip"
+                android:layout_gravity="center_horizontal" />
+
+            <Button
+                android:id="@+id/btncreative8"
+                android:layout_width="350dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_horizontal"
+                android:background="#ffffff"
+                android:paddingRight="245dp"
+                android:text="Creative"
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <View
+                android:layout_width="283dp"
+                android:layout_height="2dip"
+                android:layout_gravity="center_horizontal" />
+
+            <Button
+                android:id="@+id/btn9"
+                android:layout_width="350dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_horizontal"
+                android:background="#ffffff"
+                android:paddingRight="240dp"
+                android:text="Zebronics"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+
+                />
+
+            <View
+                android:layout_width="283dp"
+                android:layout_height="2dip"
+                android:layout_gravity="center_horizontal" />
+
+
+            <Button
+                android:id="@+id/btn10"
+                android:layout_width="350dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_horizontal"
+                android:background="#ffffff"
+                android:paddingRight="250dp"
+                android:text="Corsair"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+
+                />
+
+            <View
+                android:layout_width="283sp"
+                android:layout_height="2dip"
+                android:layout_gravity="center_horizontal" />
+
+            <Button
+                android:id="@+id/btncanon12"
+                android:layout_width="350dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_horizontal"
+                android:background="#ffffff"
+                android:paddingRight="250dp"
+                android:text="Canon"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+
+                />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

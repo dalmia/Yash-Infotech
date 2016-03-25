@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffdfdfdf">
+
+    <ScrollView
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_height="40sp"
+                android:layout_width="fill_parent"
+                android:text="Kaspersky Internet Security"
+                android:textSize="20sp"
+                android:textColor="@android:color/primary_text_light"
+                android:paddingLeft="20sp"
+                android:paddingTop="10sp"
+              />
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="200sp"
+                android:layout_marginTop="10sp"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:background="#ffffff"
+                >
+
+                <ImageView
+                    android:layout_width="150sp"
+                    android:layout_height="150sp"
+                    android:id="@+id/kasinterimage"
+                    android:layout_marginTop="20sp"
+                    android:layout_marginLeft="10sp"
+                    android:src="@drawable/internetfinal1" />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="200sp"
+                    android:id="@+id/interlinearlayout"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:text="Kaspersky Internet Security 2015 1PC 1Yr"
+                        android:layout_weight="0.9"
+                        android:id="@+id/kasinterbutton1"
+                        android:textSize="20sp"
+                        android:textColor="@android:color/darker_gray"
+                        android:layout_marginRight="15sp"
+                        android:layout_marginTop="30sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="50sp"
+                        android:text="Rs. 480"
+                        android:id="@+id/textView4"
+                        android:textStyle="bold"
+                        android:textSize="25sp" />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="200sp"
+                android:layout_marginTop="10sp"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:background="#ffffff"
+                >
+
+                <ImageView
+                    android:layout_width="150sp"
+                    android:layout_height="150sp"
+                    android:id="@+id/kasinterimage2"
+                    android:layout_marginTop="30sp"
+                    android:layout_marginLeft="10sp"
+                    android:src="@drawable/internetfinal1" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="200sp"
+                    android:id="@+id/linearlayoutinter2"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:text="Kaspersky Internet Security 2015 3PC 1Yr"
+                        android:id="@+id/kasinterbutton2"
+                        android:layout_weight="0.9"
+
+                        android:textSize="20sp"
+                        android:textColor="@android:color/darker_gray"
+                        android:layout_marginRight="15sp"
+                        android:layout_marginTop="30sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="50sp"
+                        android:text="Rs. 1200"
+                        android:id="@+id/textView5"
+                        android:textStyle="bold"
+                        android:textSize="25sp" />
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="200sp"
+                android:layout_marginTop="10sp"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:background="#ffffff"
+                >
+
+                <ImageView
+                    android:layout_width="150sp"
+                    android:layout_height="150sp"
+                    android:id="@+id/kasinterimage3"
+                    android:layout_marginTop="20sp"
+                    android:layout_marginLeft="10sp"
+                    android:src="@drawable/internetfinal2" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="200sp"
+                    android:id="@+id/interlinearlayout2"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:text="Kaspersky Internet Security 2015 5PC 1Yr"
+                        android:id="@+id/kasperinter3"
+                        android:textSize="20sp"
+                        android:textColor="@android:color/darker_gray"
+                        android:layout_weight="0.9"
+
+                        android:layout_marginRight="15sp"
+                        android:layout_marginTop="30sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="50sp"
+                        android:text="Rs. 1400"
+                        android:id="@+id/textView6"
+                        android:textStyle="bold"
+                        android:textSize="25sp" />
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="200sp"
+                android:layout_marginTop="10sp"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:background="#ffffff"
+                >
+
+                <ImageView
+                    android:layout_width="150sp"
+                    android:layout_height="150sp"
+                    android:id="@+id/kasinterimage4"
+                    android:layout_marginTop="20sp"
+                    android:layout_marginLeft="10sp"
+                    android:src="@drawable/internetfinal1" />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="200sp"
+                    android:id="@+id/interlinearlayout4"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:text="Kaspersky Internet Security 2015 1PC 3Yr"
+                        android:id="@+id/kasinterbutton4"
+                        android:textSize="20sp"
+                        android:layout_weight="0.9"
+
+                        android:textColor="@android:color/darker_gray"
+                        android:layout_marginRight="15sp"
+                        android:layout_marginTop="30sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="50sp"
+                        android:text="Rs. 900"
+                        android:id="@+id/textViewinter4"
+                        android:textStyle="bold"
+                        android:textSize="25sp" />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="200sp"
+                android:layout_marginTop="10sp"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:background="#ffffff"
+                >
+
+                <ImageView
+                    android:layout_width="150sp"
+                    android:layout_height="150sp"
+                    android:id="@+id/kasinterimage5"
+                    android:layout_marginTop="20sp"
+                    android:layout_marginLeft="10sp"
+                    android:src="@drawable/internetfinal1" />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="200sp"
+                    android:id="@+id/interlinearlayout5"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:text="Kaspersky Internet Security 2015 3PC 3Yr"
+                        android:id="@+id/kasinterbuttoninter5"
+                        android:layout_weight="0.9"
+                        android:textSize="20sp"
+                        android:textColor="@android:color/darker_gray"
+                        android:layout_marginRight="15sp"
+                        android:layout_marginTop="30sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="50sp"
+                        android:text="Rs. 1770"
+                        android:id="@+id/textViewinter5"
+                        android:textStyle="bold"
+                        android:textSize="25sp" />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
